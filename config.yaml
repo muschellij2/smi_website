@@ -58,7 +58,7 @@ params:
       bio: "AMStat imaging section"
 
   # List of Partners
-#  Partners:
-#    - name: "Hugo"
-#      logo: "/img/hugo.jpg"
-#      url: "https://gohugo.io"
+  Partners:
+    - name: "Hugo"
+      logo: "/img/hugo.jpg"
+      url: "https://gohugo.io"
