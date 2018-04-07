@@ -33,7 +33,7 @@ params:
     about: "About"
     location: "Location"
     #speakers: "Speakers"
-    #schedule: "Schedule"
+    schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Partners"
     #contact: "Contact"
@@ -59,19 +59,7 @@ params:
 #      url: "https://gohugo.io"
 
   # The entire schedule
-#  Schedule:
-#    - name: "Check-in / Breakfast"
-#      time: "9h00"
-#
-#    - name: "Linus Torvalds"
-#      photo: "/img/speaker.jpg"
-#      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-#      company: "Linux Foundation"
-#      link:
-#        href: "http://twitter.com/linus"
-#        text: "@linus"
-#      presentation:
-#        title: "Digging into a Linux Kernel"
-#        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-#        time: "10h00"
-#
+  Schedule:
+    - name: "Schedule PDF"
+      link:
+        href: "schedule.pdf"
