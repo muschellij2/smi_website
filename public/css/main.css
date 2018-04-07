@@ -368,12 +368,6 @@ nav {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.call-action-area .call-action-link:hover,
-.call-action-area .call-action-link:focus,
-.btn:hover,
-.btn:focus {
-  top: 0;
-}
 /* =============================================================================
    ABOUT
    ========================================================================== */

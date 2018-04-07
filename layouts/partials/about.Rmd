@@ -10,3 +10,5 @@ conducted over three days: the first day will include a hackathon, and the secon
 include invited talks as well as collaborative case study presentations. A poster reception will also
 occur on the evening of the second day of the conference. This conference is targeted towards
 methodologists and quantitative scientists interested in imaging analytics and epidemiology.
+
+The preliminary schedule for the conference can be found <a href='schedule.pdf'>here</a>. 
