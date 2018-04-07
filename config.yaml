@@ -36,7 +36,7 @@ params:
     #schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Partners"
-    contact: "Contact"
+    #contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -75,8 +75,3 @@ params:
 #        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 #        time: "10h00"
 #
-
-  # List of Sponsors
-  Contact:
-    - name: "Organizing Committee"
-      email: "smi2018phila@gmail.com"
