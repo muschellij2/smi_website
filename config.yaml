@@ -44,7 +44,12 @@ params:
   #  text: "Register now!"
   #  link: "http://register.example.com"
 
- 
+  # The entire schedule
+  Schedule:
+    - name: "Schedule PDF"
+      link:
+        href: "schedule.pdf"
+
   # List of Sponsors
   Sponsors:
     - name: "ASA"
@@ -57,9 +62,3 @@ params:
 #    - name: "Hugo"
 #      logo: "/img/hugo.jpg"
 #      url: "https://gohugo.io"
-
-  # The entire schedule
-  Schedule:
-    - name: "Schedule PDF"
-      link:
-        href: "schedule.pdf"
