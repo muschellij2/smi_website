@@ -3,7 +3,7 @@ title: "Statistical Methods in Imaging"
 canonifyurls: true
 theme: "hugo-conference"
 ignoreFiles: [ "\\.Rmarkdown$", "_files$", "_cache$"]
-
+relativeurls: true
 params:
   # Conference info
   Name: "Statistical Methods in Imaging"
@@ -23,7 +23,7 @@ params:
     - about
     - location
     #- speakers
-    #- schedule
+    #- agenda
     - sponsors
     #- partners
     #- contact
@@ -33,45 +33,31 @@ params:
     about: "About"
     location: "Location"
     #speakers: "Speakers"
-    #schedule: "Schedule"
+    #agenda: "Agenda"
     sponsors: "Sponsors"
-    partners: "Partners"
-    # contact: "Contact"
+    #partners: "Partners"
+    #contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  #CallToAction:
-  #  text: "Register now!"
-  #  link: "http://register.example.com"
+  CallToAction:
+    text: "Register now!"
+    link: "https://upenn.irisregistration.com/Form/smi2018"
 
- 
+  # The entire schedule
+ # Agenda:
+  #  - name: "Schedule PDF"
+ #     link:
+#        href: "schedule.pdf"
+
   # List of Sponsors
   Sponsors:
     - name: "ASA"
       logo: "/img/ASA.png"
       url: "https://www.amstat.org/"
-      bio: "AMStat imaging section"
+      bio: "Section on Statistics in Imaging"
+    - name: "CCEB"
+      logo: "http://www.cceb.med.upenn.edu/sites/default/files/uploads/cceb_logo.png"
+      url: "http://www.cceb.med.upenn.edu/"
+      bio: "Center for Clinical Epidemiology and Biostatistics"
 
-  # List of Partners
-#  Partners:
-#    - name: "Hugo"
-#      logo: "/img/hugo.jpg"
-#      url: "https://gohugo.io"
-
-  # The entire schedule
-#  Schedule:
-#    - name: "Check-in / Breakfast"
-#      time: "9h00"
-#
-#    - name: "Linus Torvalds"
-#      photo: "/img/speaker.jpg"
-#      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-#      company: "Linux Foundation"
-#      link:
-#        href: "http://twitter.com/linus"
-#        text: "@linus"
-#      presentation:
-#        title: "Digging into a Linux Kernel"
-#        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-#        time: "10h00"
-#
