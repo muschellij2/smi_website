@@ -22,6 +22,7 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - previous
     - location
     - speakers
     - schedule
@@ -32,6 +33,7 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "About"
+    previous: "Previous"
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
